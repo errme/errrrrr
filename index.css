@@ -1,5 +1,11 @@
-/* 5.1 */
 
+
+
+body {
+    margin: 0px auto;
+    font-size: 28px;
+    line-height: 1.5em;
+}
 #pagebody {
     width: 900px;
     margin: 0px auto;
