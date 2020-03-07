@@ -5,42 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
 
-    <link rel="stylesheet" href="index.css">
-   
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <div class="wrapper">
       <div class="container">
         <h1>Welcome</h1>
-        <img src="index.gif">
+        <img src="index.gif" />
         <form class="form">
           <input type="text" placeholder="Username" />
           <input type="password" placeholder="Password" />
           <button type="submit" id="login-button">Login</button>
         </form>
       </div>
-
-      <ul class="bg-bubbles">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
     </div>
     <script>
-        window.applicationCache.addEventListener("updateready",function(){
-            if(confirm("本地缓存已被更新，需要刷新页面才能获取应用程序的最新版本，是否需要更新")){
-                applicationCache.swapCache();
-                location.reload();
-                alert("当前已经切换到缓存环境");
-            }
-        });
+      window.applicationCache.addEventListener("updateready", function() {
+        if (
+          confirm(
+            "本地缓存已被更新，需要刷新页面才能获取应用程序的最新版本，是否需要更新"
+          )
+        ) {
+          applicationCache.swapCache();
+          location.reload();
+          alert("当前已经切换到缓存环境");
+        }
+      });
+
+      console.log(
+        "\n %c 欢迎来到 https://meai.me 你还可以访问 https://xgan.me http://errr.me 站长：苍耳  %c",
+        "color: white; background: rgba(0,0,0,0.2); padding:5px 0;",
+        "color: gray; background: rgba(0,0,0,0.1); padding:5px 0;"
+      );
     </script>
   </body>
 </html>
