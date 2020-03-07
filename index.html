@@ -1,33 +1,36 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS3动态背景登录框代码</title>
 
-<head>
-    <meta charset="UTF-8">
-    <title>DIV+CSS页面布局设计</title>
     <link rel="stylesheet" type="text/css" href="index.css" />
-</head>
+   
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h1>Welcome<br><img src="index.gif"></h1>
+        <form class="form">
+          <input type="text" placeholder="Username" />
+          <input type="password" placeholder="Password" />
+          <button type="submit" id="login-button">Login</button>
+        </form>
+      </div>
 
-<body>
-    <div id="pagebody" class="">
-        <div id="logo" class="">
-            这是头部信息区
-        </div>
-        <div id="nav" class="">
-            这是导航信息区
-        </div>
-        <div id="main" class="">
-            <div id="mainleft" class="">
-                这是主体信息区
-            </div>
-            <div id="mainright" class="">
-                这是右侧信息区
-            </div>
-        </div>
-        <div id="footer" class="">
-            这是版权信息区
-        </div>
+      <ul class="bg-bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
     </div>
-</body>
-
+  </body>
 </html>
