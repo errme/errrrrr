@@ -33,5 +33,14 @@
         <li></li>
       </ul>
     </div>
+    <script>
+        window.applicationCache.addEventListener("updateready",function(){
+            if(confirm("本地缓存已被更新，需要刷新页面才能获取应用程序的最新版本，是否需要更新")){
+                applicationCache.swapCache();
+                location.reload();
+                alert("当前已经切换到缓存环境");
+            }
+        });
+    </script>
   </body>
 </html>
