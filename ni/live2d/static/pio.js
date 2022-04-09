@@ -279,7 +279,7 @@ var pio = new Paul_Pio({
     "mode": "draggable",
     "hidden": false,
     "tips":false,
-    "link":["https://errr.me"],
+    "link":["https://errrrrr.com"],
     // "touch":["你这个绅士！", "别碰我！"]
     // "referer": "你通过 %t 来到了这里",
     "content": {
