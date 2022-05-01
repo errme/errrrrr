@@ -157,7 +157,7 @@ var Paul_Pio = function (prop) {
 
             // 关于我
             elements.info.onclick = function () {
-                window.open(prop.content.link || "https://errrrrr.com");
+                window.open(prop.content.link || "www.errrrrr.com");
             };
             elements.info.onmouseover = function () {
                 modules.render("想了解更多关于我的信息吗？");
@@ -279,7 +279,7 @@ var pio = new Paul_Pio({
     "mode": "draggable",
     "hidden": false,
     "tips":false,
-    "link":["https://errrrrr.com"],
+    "link":["www.errrrrr.com"],
     // "touch":["你这个绅士！", "别碰我！"]
     // "referer": "你通过 %t 来到了这里",
     "content": {
@@ -309,5 +309,5 @@ var pio = new Paul_Pio({
         ],
     },
     "night": "night()",
-    "model": ["https://errrrrr.com/ni/live2d/models/snow_miku/model.json","https://errrrrr.com/ni/live2d/models/snow_miku/model.json/pio/model.json"]
+    "model": ["https://www.errrrrr.com/ni/live2d/models/snow_miku/model.json","https://www.errrrrr.com/ni/live2d/models/snow_miku/model.json/pio/model.json"]
 });
